@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'uicomponents';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
+          <Button variant="primary">hello</Button>
           Learn React
         </a>
       </header>
