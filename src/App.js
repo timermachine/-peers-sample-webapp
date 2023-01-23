@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'uicomponents';
+import { Button, Toggle } from 'uicomponents';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer">
           <Button variant="primary">hello</Button>
+          <Toggle id="myid" />
           Learn React
         </a>
       </header>
